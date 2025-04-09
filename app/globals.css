@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 239 84% 67%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 239 84% 67%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 239 84% 67%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 239 84% 67%;
+  }
+}
+
+/* Add font styling */
+.font-serif {
+  font-family: "Georgia", serif;
+}
+
+/* Add smooth transitions for all interactive elements */
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+/* Add gradient text effect for headings */
+.gradient-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #4f46e5, #818cf8);
+}
+
+/* Add animations for scroll reveal */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* Dark theme specific styles */
+.dark body {
+  background-color: hsl(222.2 84% 4.9%);
+  color: hsl(210 40% 98%);
+}
+
+.dark .bg-white {
+  background-color: hsl(222.2 47.4% 11.2%);
+}
+
+.dark .bg-gradient-to-br {
+  background-image: linear-gradient(
+    to bottom right,
+    hsl(222.2 47.4% 11.2%),
+    hsl(222.2 47.4% 8.2%),
+    hsl(262.1 83.3% 20.9%)
+  );
+}
+
+.dark .text-slate-700,
+.dark .text-slate-600 {
+  color: hsl(214.3 31.8% 91.4%);
+}
+
+.dark .text-slate-900 {
+  color: hsl(210 40% 98%);
+}
+
+.dark .border-indigo-100,
+.dark .border-slate-300,
+.dark .border-slate-100 {
+  border-color: hsl(217.2 32.6% 17.5%);
+}
+
+.dark .bg-indigo-50,
+.dark .bg-slate-50 {
+  background-color: hsl(217.2 32.6% 17.5%);
+}
+
+.dark .text-indigo-600,
+.dark .text-indigo-700 {
+  color: hsl(226.4 100% 81.5%);
+}
+
+.dark .bg-indigo-600 {
+  background-color: hsl(226.4 100% 61.5%);
+}
+
+.dark .hover\:bg-indigo-700:hover {
+  background-color: hsl(226.4 100% 51.5%);
+}
+
+.dark .hover\:text-indigo-600:hover {
+  color: hsl(226.4 100% 81.5%);
+}
+
+.dark .hover\:bg-indigo-50:hover {
+  background-color: hsl(217.2 32.6% 17.5%);
+}
+
+/* Consistent spacing */
+section {
+  padding: 4rem 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 6rem 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

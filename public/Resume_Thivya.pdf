@@ -1,0 +1,54 @@
+THIVYA DHANASEGARAN 
+Boston, MA | (978) 349-8421 | dhanasegaran.t@northeastern.edu | LinkedIn |Portfolio |GitHub  
+Graduating in April 2025 | Actively seeking full-time opportunities in Software Development starting May 2025 
+EDUCATION 
+Northeastern University, Master of Science in Information Systems                                                                                April 2025 
+WORK EXPERIENCE 
+Senior Systems Engineer | Infosys Limited  
+Project: iBridge HRMS – 2.8 years 
+● Developed an Employee Resource Management System using Java Spring Framework, Hibernate, and MySQL 
+streamlining employee management and optimizing resource allocation 
+● Implemented Redis caching to improve system scalability for 100,000+ users, enhancing response time by 40% and 
+reducing database load by 30% 
+● Enforced role-based access control with Spring Security, enhancing data security and access control 
+● Accelerated issue resolution time by 30% through effective teamwork, communication, and problem-solving skills 
+Systems Engineer | Infosys Limited 
+Project: MNCR Prospective Conversion, Client: LexisNexis – 2.3 years 
+● Automated conversion of unstructured legal documents into MNCR XML format using Informatica DT/DX, decreasing 
+manual effort by 50%, and received client appreciation for enhancing operational efficiency 
+Lead Teaching Assistant | Northeastern University                                                 Sep 2024 - Present 
+● Assisted students in ADTs, data structures and web technologies (Express, React, MongoDB, REST APIs) 
+● Addressed student queries, designed course materials, and collaborated on assignments and exams  
+PROJECTS 
+CloudOps | GitHub
+  
+● Developed and deployed cloud-native backend applications on GCP using Node.js, Express, and MySQL 
+● Provisioned VPCs, Cloud SQL, VMs with Terraform as IaC and automated machine image creation with Packer 
+● Optimized reliability with load balancers, autoscaling, Cloud Functions and real-time Pub/Sub email notifications 
+● Streamlined deployments with CI/CD pipelines using GitHub Actions and managed version control with GitHub 
+MediLink |GitHub
+  
+● Built a full-stack healthcare management system using Spring Boot, Hibernate, MySQL, and REST APIs 
+● Streamlined healthcare operations by integrating records, appointment scheduling, and prescription handling 
+● Maximized database performance by 40% with Redis caching, and automated email notifications 
+● Secured the application with Google OAuth, role-based access control and deployed using Docker for scalability 
+GoCamp |GitHub
+  
+● Designed a responsive campsite booking web application using the MERN stack and REST APIs 
+● Enabled users to search, book campsites, manage their own campsites, and add reviews 
+● Used Node.js/Express.js for backend services, MongoDB for data storage, and i18n for multi-language support 
+LingoPlatform |GitHub
+  
+● Created Language Learning System database by designing ER diagrams and applying normalization principles 
+● Improved database performance using stored procedures, triggers, views, and indexes 
+● Secured sensitive user data with AES-256 encryption and generated insightful reports using Power BI 
+PromptX |GitHub
+  
+● Optimized prompts to enhance AI model performance in content generation and decision-making tasks 
+● Fine-tuned LLMs using reinforcement learning, improving model adaptability and response accuracy 
+TECHNICAL SKILLS 
+Programming Languages: Java, JavaScript, TypeScript, SQL, Algorithm & Data Structure, Object-Oriented Programming 
+Web Technologies: Spring Boot, React, Node.js, Express.js, Servlets, Spring MVC, HTML, CSS, REST APIs, Redux, Ajax 
+Databases: MySQL, MongoDB, Redis, Azure Data Studio, ORM (Hibernate, Mongoose, Sequelize) 
+Cloud: GCP, Terraform, Jenkins, GitHub, GitHub Actions (CI/CD), Docker, Packer, Microservices 
+Others: Linux, Agile SDLC, Apache Kafka, jQuery, Postman, Maven, JSON, RabbitMQ, Swagger, GraphQL, Elasticsearch
